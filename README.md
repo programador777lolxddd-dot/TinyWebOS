@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="Captura desde 2026-10-18 16-40-24" src="https://github.com/user-attachments/assets/b9657b07-574c-4720-8d71-e9adb37e7d67" />
-<img width="1920" height="1080" alt="Captura desde 2026-10-18 16-40-37" src="https://github.com/user-attachments/assets/abb72598-58b0-4dac-a622-ed033a7a83ce" />
 # TinyWebOS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
