@@ -1,18 +1,12 @@
 <!-- ========================================== -->
 <!-- CABECERA ÉPICA CON ONDA Y ANIMACIÓN        -->
 <!-- ========================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:1a1a1a,100:4f9dff&height=150&section=header&text=TinyWebOS&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
-
-<!-- BANNER ANCHO Y MÁS BAJITO (EFECTO CINE) -->
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6eef4c9c-b500-4607-80e3-ea1fe6b8d447" width="100%" style="max-height: 250px; object-fit: cover; object-position: center; margin-top: -20px; border-radius: 10px;" alt="Tu WebOS favorito - The Future is Now" />
-</div>
-
-<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:1a1a1a,100:4f9dff&height=180&section=header&text=TinyWebOS&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
 
 <div align="center">
   
-  <!-- TERMINAL ANIMADA (Arreglada y más ancha) -->
+  <!-- TERMINAL ANIMADA -->
+  <br>
   <a href="https://tinywebfromgithubrepo.vercel.app/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=800&color=4F9DFF&center=true&vCenter=true&width=900&lines=%5B+OK+%5D+Mounting+%2Fdev%2Fweb_os;%5B+OK+%5D+Bypassing+frameworks;%5B+OK+%5D+Injecting+Gemini+AI;%5B+OK+%5D+Initializing+UI;%3E+root%40tinywebos%3A~%23+startx" alt="Boot Sequence" />
   </a>
@@ -188,6 +182,6 @@
 TinyWebOS/
 │
 ├── 📄 tinyweb.html    # El Sistema Operativo completo (UI + Apps + Terminal + IA)
-├── 🖼️ anun.jpg        # Banner oficial del proyecto
 ├── 📄 README.md       # Documentación épica
-└── ⚖️ LICENSE         # Licencia MIT
+├── 📄 LICENSE.md      # Licencia MIT decorada
+└── ⚖️ LICENSE         # (Opcional) Licencia original
