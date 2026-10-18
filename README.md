@@ -1,8 +1,8 @@
 # TinyWebOS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Estado](https://img.shields.io/badge/estado-beta-blue)](https://github.com/programador777lolxddd-dot/TinyWebOS)
-[![Single File](https://img.shields.io/badge/single--file-HTML%2BCSS%2BJS-4f9dff)](https://github.com/programador777lolxddd-dot/TinyWebOS)
+[![Estado](https://img.shields.io/badge/Estado-Alpha-blue)](https://github.com/programador777lolxddd-dot/TinyWebOS)
+[![Archivo Pequeño](https://img.shields.io/badge/Archivo_Peque%C3%B1o-HTML%2BCSS%2BJS-4f9dff)](https://github.com/programador777lolxddd-dot/TinyWebOS)
 
 TinyWebOS es un proyecto de **WebOS de código abierto** que busca combinar la ligereza de [Tiny Core Linux](http://tinycorelinux.net/) con una interfaz de escritorio accesible desde el navegador. La idea es ofrecer un entorno mínimo, rápido y fácil de personalizar, ideal para aprender, experimentar y reutilizar en hardware modesto.
 
