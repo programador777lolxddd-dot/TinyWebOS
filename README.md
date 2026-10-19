@@ -1,6 +1,4 @@
-<!-- ========================================== -->
-<!-- CABECERA ÉPICA CON ONDA Y ANIMACIÓN        -->
-<!-- ========================================== -->
+<!-- CABECERA ESTABLE -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:1a1a1a,100:4f9dff&height=180&section=header&text=TinyWebOS&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
 
 <div align="center">
@@ -13,26 +11,28 @@
 
   <br><br>
 
-  <!-- BOTÓN PRINCIPAL DE DEMO (ULTRA GLOW) -->
+  <!-- BOTÓN PRINCIPAL DE DEMO -->
   <a href="https://tinywebfromgithubrepo.vercel.app/">
     <img src="https://img.shields.io/badge/🚀_EJECUTAR_DEMO_EN_VIVO-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=4f9dff" style="border-radius: 15px; box-shadow: 0 0 40px #4f9dff, 0 0 80px #4f9dff; transform: scale(1.1);" alt="Demo en Vivo">
   </a>
   
   <br><br>
   
-  <!-- BADGES DE ALTO IMPACTO -->
+  <!-- BADGES -->
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" />
   <img src="https://img.shields.io/badge/Size-1_File-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Framework-None-critical?style=flat-square" />
   <img src="https://img.shields.io/badge/AI-Gemini_Integrated-8E75B2?style=flat-square" />
   <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square" />
-  
 </div>
 
 <br>
 
----
+<!-- LÍNEA SEPARADORA ANIMADA -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br>
 
 > 🌌 **"TinyWebOS no es una página web. Es un ecosistema completo que vive en tu navegador."**
 
@@ -74,7 +74,7 @@
 <br>
 
 <!-- ========================================== -->
-<!-- SHOWCASE VISUAL (GALERÍA PREMIUM)          -->
+<!-- SHOWCASE VISUAL                            -->
 <!-- ========================================== -->
 ### 🖼️ Showcase Visual
 
@@ -98,7 +98,7 @@
 <br>
 
 <!-- ========================================== -->
-<!-- ARQUITECTURA DEL SISTEMA (BENTO BOX)       -->
+<!-- ARQUITECTURA DEL SISTEMA                   -->
 <!-- ========================================== -->
 ### 🧬 Arquitectura del Sistema
 
@@ -174,14 +174,44 @@
 <br>
 
 <!-- ========================================== -->
-<!-- ESTRUCTURA Y INSTALACIÓN                   -->
+<!-- SEGURIDAD Y ADVERTENCIAS                   -->
 <!-- ========================================== -->
-### 📂 Estructura del Proyecto
+### 🔒 Seguridad y Limitaciones Conocidas (BYOK)
 
-```text
-TinyWebOS/
-│
-├── 📄 tinyweb.html    # El Sistema Operativo completo (UI + Apps + Terminal + IA)
-├── 📄 README.md       # Documentación épica
-├── 📄 LICENSE.md      # Licencia MIT decorada
-└── ⚖️ LICENSE         # (Opcional) Licencia original
+> ⚠️ **Advertencia de Seguridad:** TinyWebOS es una aplicación 100% Frontend (Client-Side). 
+> Para usar el Asistente IA, el sistema utiliza el modelo **BYOK (Bring Your Own Key)**. 
+> *   **Nunca uses una API Key de producción con facturación ilimitada.**
+> *   Tu clave se guarda por defecto en `sessionStorage` (se borra al cerrar la pestaña).
+> *   No incluimos API Keys públicas en el código para evitar cargos maliciosos.
+
+**Limitaciones conocidas:**
+*   El Navegador integrado (iframe) está sujeto a las políticas de CORS/X-Frame-Options de los sitios web externos. Algunos sitios (como Google o GitHub) no cargarán.
+*   El sistema de archivos virtual está limitado a 5MB por las cuotas de `localStorage` del navegador.
+
+<br>
+
+<!-- ========================================== -->
+<!-- INSTALACIÓN                                -->
+<!-- ========================================== -->
+### 📦 Instalación y Uso
+
+<details>
+  <summary><b>🛠️ Hacer Deploy Local (Clic para expandir)</b></summary>
+  <br>
+  
+  Correr TinyWebOS en tu máquina es ridículamente fácil. No necesitas instalar nada (ni Node.js, ni Python, ni servidores).
+  
+  ```bash
+  # 1. Clona el repositorio
+  git clone https://github.com/programador777lolxddd-dot/TinyWebOS.git
+  
+  # 2. Entra al directorio
+  cd TinyWebOS
+  
+  # 3. Ejecuta el sistema (Solo abre el archivo)
+  # En Windows:
+  start tinyweb.html
+  # En macOS:
+  open tinyweb.html
+  # En Linux:
+  xdg-open tinyweb.html
